@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
-	//var accessToken = window.location.hash.split("=")[1];
-	var accessToken = '22156862.2284ca5.17bbd4e1aa77479381184b8ad4047efe';
+	var accessToken = window.location.hash.split("=")[1];
 	var userID = accessToken.split(".")[0];
 
 	var unfollowersCount = 0;
@@ -31,8 +30,6 @@ $(document).ready(function() {
 					var unfollowersDetailsRequestUrl = 'https://api.instagram.com/v1/users/'+followsId+'/?access_token='+accessToken+'&callback=?';
 
 					$.getJSON(unfollowersDetailsRequestUrl, {}, function(unfollowersDataResponse) {
-
-						//console.log(unfollowersDataResponse.data);
 
 						var username = unfollowersDataResponse.data.username;
 						var profile = unfollowersDataResponse.data.profile_picture;
