@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Lora:400,400italic,700|Inconsolata:400,700);
+
+
+html {
+	font-size: 62.5%;
+	font-family: 'Lora';
+	color: rgb(40, 40, 40);
+	background-color: rgb(245, 245, 245);
+}
+
+body {
+	font-size: 1.4rem;
+	line-height: 1.8;
+}
+
+header {
+	padding: 20px 0;
+	height: auto;
+	margin-bottom: 20px;
+	clear: both;
+	border-bottom: 4px solid pink;
+	position: relative;
+}
+
+footer {
+	padding: 20px 0;
+	height: auto;
+	margin-top: 20px;
+	clear: both;
+	border-top: 4px solid pink;
+
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+h1,
+h2,
+h3,
+.btn {
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 2.5rem;
+	line-height: 1.5;
+}
+
+
+h2 {
+	font-size: 2rem;
+	color: pink;
+	margin-bottom: 1.5rem;
+}
+
+
+
+
+a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+a:hover {
+	opacity: 0.6;
+}
+
+.btn {
+	border: 0;	
+	display: inline-block;
+	width: 180px;
+	height: 35px;
+	text-align: center;
+	padding: 5px;
+
+	background-color: pink;
+	color: #fff;
+
+	margin: 2rem 0;
+}
+
+.btn a {
+	text-decoration: none;
+}
+
+
+main {
+	width: 90%;
+	margin: 50px auto;
+}
+
+
+#payback {
+	text-align: center;
+}
+
+
+.info-container {
+	text-align: center;
+	background-color: #fff;
+	width: 100%;
+	margin: 2rem 0;
+	padding: 2rem;
+}
+
+ul,
+li {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+li img {
+	width: 100%;
+	height: auto;
+}
